@@ -377,6 +377,7 @@ body{
 
 .map-info{
   padding: 130px 0;
+  background-color: #1f2128;
 }
 .map-info__leftdiv{
   overflow: hidden;
