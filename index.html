@@ -14,20 +14,76 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+  <div class="modal row middle " id="modal">
+    <div>
+      <img src="img/modal-img.jpg" alt="" width="460" height="770">
+    </div>
+    <div class="modal__right">
+      <button id="close"><i class='bx bx-x'></i></button>
+      <ul class="modal__list">
+        <li class="modal__item"><a class="modal__linkl" href="#">home</a></li>
+        <li class="modal__item"><a class="modal__linkl" href="#">about</a></li>
+        <li class="modal__item"><a class="modal__linkl" href="#">servisec</a></li>
+        <li class="modal__item"><a class="modal__linkl" href="#">portfolio</a></li>
+        <li class="modal__item"><a class="modal__linkl" href="#">blog</a></li>
+      </ul>
+      <ul class="modal__lists">
+        <li class="modal__itemm">
+          <i class='bx bxl-facebook' ></i>
+          <a class="modal__linkk" href="#">facebook</a>
+          <span class="modal-sapn"></span>
+        </li>
+
+        <li class="modal__itemm ">
+          <i class='bx bxl-twitter' ></i>
+          <a class="modal__linkk" href="#">twitter</a>
+          <span class="modal-sapn"></span>
+        </li>
+        <li  class="modal__itemm">
+          <i class='bx bxl-instagram' ></i>
+          <a class="modal__linkk" href="#">instagram</a>
+          <span class="modal-sapn"></span>
+        </li>
+        <li  class="modal__itemm">
+          <i class='bx bx-basketball' ></i>
+          <a class="modal__linkk" href="#">dribble</a>
+          <span class="modal-sapn"></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
   <section>
       <header class="header-all row middle between">
         <a href="#"><img src="img/logo.png" alt="logoo" width="111" height="36"></a>
         <div class="row middle">
           <a class="header-all__link" href="tel">CALL USS +998900654637</a>
-          <a href="#"><i class='bx bx-menu'></i></a>
+          <i id="open" class='bx bx-menu'></i>
         </div>
       </header>
-      <div class="hero">
-        <!-- <img src="img/hero-img.jpg" alt="hero-img" width="" height=""> -->
-      </div>
-  </section>
 
+    <div class="hero">
+      <div class="slider">
+        <div class="slider-in">
+           <span class="slider-number">01</span>
+           <div class="slider-content">
+              <h3 class="slider-title">De wendell burnette</h3>
+              <div class="slider-linkdiv">
+                 <a href="#" class="slider-link">
+                    <span class="slider-linktext">explore project</span>
+                 </a>
+              </div>
+           </div>
+        </div>
+        <div class="slider-btns">
+           <div class="slider-btn1"></div>
+           <div class="slider-btn1"></div>
+        </div>
+     </div>
+    </div>
+  </section>
+<main>
   <section class="elementor-section">
     <div class="container">
       <div class="elementor row middle evenly">
@@ -55,22 +111,56 @@
 
 
   <section>
-    <ul class="figure-list">
+    <ul class="figure-list ">
       <li class="figure-list__item fig-item">
-        <h3 class="fig-item__title">Architecture design</h3>
-        <i class='bx bx-right-arrow-alt'></i>
+        <img  class="fig-item__img" src="img/arhitecture.jpg" alt="" width="304" height="424">
+        <div class="fig-item__position fig-items-pos">
+          <h3 class="fig-item__title">Architecture design</h3>
+          <i class='bx bx-right-arrow-alt'></i>
+          <div class="fig-items-pos__div fig-item-p">
+            <p class="fig-item-p__text">Lorem ipsum is simply dummy text of the printing and typesetting.</p>
+            <a class="fig-items-pos__link" href="#">SEE PORTFOLIO</a>
+          </div>
+
+        </div>
       </li>
-      <li class="figure-list__item figu-item">
+      <li class="figure-list__item fig-item">
+        <img  class="fig-item__img" src="img/arhitecture-img2.jpg" alt="" width="304" height="424">
+        <div class="fig-item__position fig-items-pos">
+          <h3 class="fig-item__title">Architecture design</h3>
+          <i class='bx bx-right-arrow-alt'></i>
+          <div class="fig-items-pos__div fig-item-p">
+            <p class="fig-item-p__text">Lorem ipsum is simply dummy text of the printing and typesetting.</p>
+            <a class="fig-items-pos__link" href="#">SEE PORTFOLIO</a>
+          </div>
 
+        </div>
+      </li>
+      <li class="figure-list__item fig-item">
+        <img  class="fig-item__img" src="img/arhitecture-img3.jpg" alt="" width="304" height="424">
+        <div class="fig-item__position fig-items-pos">
+          <h3 class="fig-item__title">Architecture design</h3>
+          <i class='bx bx-right-arrow-alt'></i>
+          <div class="fig-items-pos__div fig-item-p">
+            <p class="fig-item-p__text">Lorem ipsum is simply dummy text of the printing and typesetting.</p>
+            <a class="fig-items-pos__link" href="#">SEE PORTFOLIO</a>
+          </div>
+
+        </div>
+      </li>
+      <li class="figure-list__item fig-item">
+        <img class="fig-item__img" src="img/arhitecture-img4.jpg" alt="" width="304" height="424">
+        <div class="fig-item__position fig-items-pos">
+          <h3 class="fig-item__title">Architecture design</h3>
+          <i class='bx bx-right-arrow-alt'></i>
+          <div class="fig-items-pos__div fig-item-p">
+            <p class="fig-item-p__text">Lorem ipsum is simply dummy text of the printing and typesetting.</p>
+            <a class="fig-items-pos__link" href="#">SEE PORTFOLIO</a>
+          </div>
+
+        </div>
       </li>
 
-      <li class="figure-list__item figur-item">
-
-      </li>
-
-      <li class="figure-list__item figure-item">
-
-      </li>
     </ul>
   </section>
 
@@ -92,9 +182,16 @@
     </div>
   </section>
 
-  <section>
-    <img src="img/video-img.jpg" alt="" width="1300" height="600">
+  
+
+  <section class="vedeo-section">
+    <a href="https://youtu.be/7xXxW0m95kM"> <i class='bx bx-play'></i></a>
+    <div class="video-div">
+      <p class="video-div__text">We are the leader in the <span class="video-div__span">architectural</span></p>
+    </div>
   </section>
+
+
 
 
   <section class="companys-section">
@@ -112,28 +209,40 @@
     <p class="select-section__text">SELECTED WORK</p>
     <ul class="select-list row middle between">
       <li class="select-list__item selec-item">
-        <img class="selec-item__img" src="img/select-img1.jpg" alt="" width="312" height="400">
+        <div class="img-holder">
+          <img class="selec-item__img" src="img/select-img1.jpg" alt="" width="312" height="400">
+          <img class="img-holder__bx" src="img/bx-right.svg" alt="" width="50" height="50">
+        </div>
         <div class="selec-item__div">
           <a class="selec-item__link" href="#"><h3 class="selec-item__title">LEANA GAGNOTTO</h3></a>
           <p class="selec-item__text">ARCHITECTURE</p>
         </div>
       </li>
       <li class="select-list__item selec-item">
-        <img class="selec-item__img" src="img/select-img2.jpg" alt="" width="312" height="400">
+        <div class="img-holder">
+          <img class="selec-item__img" src="img/select-img2.jpg" alt="" width="312" height="400">
+          <img class="img-holder__bx" src="img/bx-right.svg" alt="" width="50" height="50">
+        </div>
         <div class="selec-item__div">
           <a class="selec-item__link" href="#"><h3 class="selec-item__title"> FRINGILA AUCTOR</h3></a>
           <p class="selec-item__text">INTERIOR</p>
         </div>
       </li>
       <li class="select-list__item selec-item">
-        <img class="selec-item__img" src="img/select-img3.jpg" alt="" width="312" height="400">
+        <div class="img-holder">
+          <img class="selec-item__img" src="img/select-img3.jpg" alt="" width="312" height="400">
+          <img class="img-holder__bx" src="img/bx-right.svg" alt="" width="50" height="50">
+        </div>
         <div class="selec-item__div">
           <a class="selec-item__link" href="#"><h3 class="selec-item__title">ALIQUAM GRAVIDA</h3></a>
           <p class="selec-item__text">ARCHITECTURE</p>
         </div>
       </li>
       <li class="select-list__item selec-item">
-        <img class="selec-item__img" src="img/select-img4.jpg" alt="" width="312" height="400">
+        <div class="img-holder">
+          <img class="selec-item__img" src="img/select-img4.jpg" alt="" width="312" height="400">
+          <img class="img-holder__bx" src="img/bx-right.svg" alt="" width="50" height="50">
+        </div>
         <div class="selec-item__div">
           <a class="selec-item__link" href="#"><h3 class="selec-item__title">CULTURAL CENTRE</h3></a>
           <p class="selec-item__text">LANDSCAPE</p>
@@ -144,20 +253,84 @@
 
 
   <section class="map-section">
-    <div class="container">
-      <div class="map-info row middle">
-        <div class="map-info__leftdiv map-leftdiv middle col-7">
-          <p class="map-leftdiv__text">World</p>
-          <img src="img/map-img.png" alt="" width="457" height="257">
+      <div class="map">
+        <span class="map-title">World</span>
+        <img class="map-img" src="https://litho.themezaa.com/wp-content/uploads/2020/06/architecture-img-15.png" alt="" width="457" height="257">
+        <div class="seperator"></div>
+        <div class="map-content">
+           <h4 class="content-title">We have offices all around the world</h4>
+           <p class="content-text">
+              Lorem ipsum is simply dummy text of the and typesetting industry lorem ipsum industry’s standard text.
+           </p>
+           <a href="#" class="content-link">get in touch</a>
         </div>
-        <div class="map-rightdiv col-5">
-          <h2 class="map-rightdiv__title">We have offices all around the world</h2>
-          <p class="map-rightdiv__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda iusto quia praesentium porro, deleniti nesciunt. Doloremque.</p>
-          <a href="#">GET IN TOUCH</a>
-        </div>
-      </div>
-    </div>
+     </div>
   </section>
+
+
+  <section class="category-section">
+    <p class="category-section__text">LATEST BLOGS</p>
+    <ul class="category-section__list row middle ">
+      <li class="category-section__item category-item">
+        <img class="category-item__img" src="img/selected-img1.jpg" alt="" width="304" height="304">
+        <div class="category-item__position-div">
+          <a class="category-item__link" href="#">CREATIVE</a>
+          <span class=" category-item__span">13 FEBRUARY 2021</span>
+          <p class="category-item__text">Bad design is smoke, while good design is a mirror</p>
+        </div>
+      </li>
+      <li class="category-section__item category-item">
+        <img class="category-item__img" src="img/selected-img2.jpg" alt="" width="304" height="304">
+        <div class="category-item__position-div">
+          <a class="category-item__link" href="#">CREATIVE</a>
+          <span class=" category-item__span">13 FEBRUARY 2021</span>
+          <p class="category-item__text">Bad design is smoke, while good design is a mirror</p>
+        </div>
+      </li>
+      <li class="category-section__item category-item">
+        <img class="category-item__img" src="img/selected-img3.jpg" alt="" width="304" height="304">
+        <div class="category-item__position-div">
+          <a class="category-item__link" href="#">CREATIVE</a>
+          <span class=" category-item__span">13 FEBRUARY 2021</span>
+          <p class="category-item__text">Bad design is smoke, while good design is a mirror</p>
+        </div>
+      </li>
+      <li class="category-section__item category-item">
+        <img class="category-item__img" src="img/selected-img5.jpg" alt="" width="304" height="304">
+        <div class="category-item__position-div">
+          <a class="category-item__link" href="#">CREATIVE</a>
+          <span class=" category-item__span">13 FEBRUARY 2021</span>
+          <p class="category-item__text">Bad design is smoke, while good design is a mirror</p>
+        </div>
+      </li>
+    </ul>
+    <p class="category-texts">ARE YOU READY TO WORK WITH US? <span class="category-spann">START A PROJECT</span></p>
+  </section>
+</main>
+  
+<div class="fixed-div middle">
+  <p class="fixed-div__text">37+ DEMOS</p>
+</div>
+<div class="fixed-div2 middle">
+  <p class="fixed-div2__text">BUY NOW</p>
+</div>
+
+<footer>
+  <span class="footer-span">
+
+  </span>
+  <div class="footer-content row middle between">
+    <a href="#"><img src="img/logoo.png" alt="" width="111" height="36"></a>
+    <span class="footer-content__span">+1 234 567 8910•27 EDEN WALK EDEN CENTRE, PARIS, FRANCE•INFO@YOURDOMAIN.COM</span>
+    <ul class="footer-content__list row middle">
+      <li class="footer-content__item"><a class="footer-content__link" href="#"><i class='bx bxl-facebook' ></i></a></li>
+      <li class="footer-content__item"><a class="footer-content__link" href="#"><i class='bx bx-basketball' ></i></a></li>
+      <li class="footer-content__item"><a class="footer-content__link" href="#"><i class='bx bxl-twitter' ></i></a></li>
+      <li class="footer-content__item"><a class="footer-content__link" href="#"><i class='bx bxl-instagram' ></i></a></li>
+    </ul>
+  </div>
+</footer>
   <script src="./js/main.js"></script>
 </body>
 </html>
+
